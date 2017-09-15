@@ -3,7 +3,7 @@
         <pattern value="repeat([дуся|всем] (привет|здравствуй*) [дуся])"/>
 
         <output>
-            <item value="Привет!"/>
+            <item value="Ку-ку"/>
             <item value="Отстань"/>
             <item value="Сама такая"/>
         </output>
