@@ -2,10 +2,10 @@
     <input pattern="привет">
         <output value="Приветик"/>
     </input>
-    <input pattern="* как * дела *">
-        <output value="Отлично! А твои?"/>
+    <input pattern="какие сегодня уроки">
+        <output value="какой сегодня день?"/>
         <context modal="true">
-            <input pattern="* (хорош*|отличн*|прекрасн*) *">
+            <input pattern="понедельник">
                 <output>
                     <item value="Это просто замечательно!"/>
                     <item value="Здорово!"/>
