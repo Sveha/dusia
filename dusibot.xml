@@ -1,7 +1,7 @@
 <context>
     <input pattern="* {какие сегодня уроки [Дуся]} *">
        <output value="А какой сегодня день?"/>
-        <context modal="true">
+        
             <input pattern="* Понедельник *">
                 <output value="4 урока: Английкий язык, Чтение, Русский язык, Труд"/>
             </input>
@@ -11,6 +11,6 @@
             <input pattern="* Сред* *">
                 <output value="5 уроков: Английский язык, Физкультура, Русский язык, Математика, Чтение"/>
             </input>
-        </context>
+       
     </input>
 </context>
