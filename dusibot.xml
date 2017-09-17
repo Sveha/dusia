@@ -5,13 +5,13 @@
     <input pattern="какие сегодня уроки">       
         <output value="какой сегодня день?"/>              
         <context modal="true">              
-            <input pattern="Понедельник">.                     
+            <input pattern="Понедельник"/>.                     
                 <output value="4 урока: Английкий язык, Чтение, Русский язык, Труд"/>              
             </input>              
-            <input pattern="Вторник">.                     
+            <input pattern="Вторник"/>.                     
                 <output value="5 уроков: Русский язык, Музыка, Математика, Информатика, Окружающий мир"/>              
             </input>              
-            <input pattern="Среда">.                     
+            <input pattern="Среда"/>.                     
             <output value="5 уроков: Английский язык, Физкультура, Русский язык, Математика, Чтение"/>              
             </input>
      </input>
