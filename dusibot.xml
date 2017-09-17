@@ -1,6 +1,6 @@
 <context>
     <input pattern="какие сегодня уроки">
-       <output value="какой сегодня день?"/>
+       <output value="сегодня $Date?"/>
         <context modal="true">
             <input pattern="Понедельник">
                 <output value="4 урока: Английкий язык, Чтение, Русский язык, Труд"/>
