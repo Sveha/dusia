@@ -1,12 +1,17 @@
 <context>
     <input>
-        <pattern value="repeat([дуся|всем] (привет|здравствуй*) [дуся])"/>
-
+        <pattern value="какие сегодня угоки"/>
         <output>
-            <item value="Ку-ку"/>
-            <item value="Отстань"/>
-            <item value="Сама такая"/>
+            <item value="">
         </output>
+            <context modal="true">
+                <input pattern="Понедельник">
+                <output>
+                    <item value="Это просто замечательно!"/>
+                    <item value="Здорово!"/>
+                </output>
+            </input>
+                
     </input>
 
     <input pattern=" * {ты кто} *">
