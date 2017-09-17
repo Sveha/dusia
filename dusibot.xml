@@ -1,8 +1,8 @@
 <context>
     <input>
-        <pattern value="какие сегодня угоки"/>
+        <pattern value="какие сегодня уроки"/>
         <output>
-            <item value="">
+            <item value="какой сегодня день?">
         </output>
             <context modal="true">
                 <input pattern="Понедельник">
