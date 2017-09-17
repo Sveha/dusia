@@ -1,6 +1,6 @@
 <context>
-    <input pattern="какие сегодня уроки">
-       <var name="command" value="* {какие сегодня уроки [Дуся]} *?"/>
+    <input pattern="* {какие сегодня уроки [Дуся]} *">
+       <output value="А какой сегодня день?"/>
         <context modal="true">
             <input pattern="* Понедельник *">
                 <output value="4 урока: Английкий язык, Чтение, Русский язык, Труд"/>
@@ -8,7 +8,7 @@
             <input pattern="* Вторник *">
                 <output value="5 уроков: Русский язык, Музыка, Математика, Информатика, Окружающий мир"/>
             </input>
-            <input pattern="* Среда *">
+            <input pattern="* Сред* *">
                 <output value="5 уроков: Английский язык, Физкультура, Русский язык, Математика, Чтение"/>
             </input>
         </context>
