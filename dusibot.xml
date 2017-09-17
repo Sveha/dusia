@@ -14,10 +14,7 @@
             <input pattern="Среда"/>.                     
             <output value="5 уроков: Английский язык, Физкультура, Русский язык, Математика, Чтение"/>              
             </input>
-     </input>
-            <input pattern="* (плох*|не очень|так себе) *">
-                <output value="Не вешай нос!"/>
-            </input>
+            
         </context>
     </input>
 </context>
